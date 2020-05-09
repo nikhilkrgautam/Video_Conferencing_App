@@ -9,7 +9,7 @@ This is a full stack video chat application built using React, WebRTC, Node.js, 
 
 ```bash
 # Clone the repository
-https://github.com/sahilnare/Video_Conferencing_App.git
+https://github.com/nikhilkrgautam/Video_Conferencing_App.git
 
 # Go inside the directory
 cd Video_Conferencing_App
