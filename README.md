@@ -17,13 +17,6 @@ cd Video_Conferencing_App
 # Install dependencies
 yarn (or npm install)
 
-# Build for production
-yarn build (or npm run build)
-
 # Start production server
 yarn start (or npm start)
-
-# Start development server
-yarn dev (or npm run dev)
-Note: You'll only see the front-page and will not be able to call as the server only serves built files.
 ```
