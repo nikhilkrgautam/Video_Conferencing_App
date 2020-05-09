@@ -22,10 +22,6 @@ function CallWindow({ peerSrc, localSrc, config, mediaDevice, status, endCall })
     }
   });
 
-  /**
-   * Turn on/off a media device
-   * @param {String} deviceType - Type of the device eg: Video, Audio
-   */
   const toggleMediaDevice = (deviceType) => {
     if (deviceType === 'video') {
       setVideo(!video);

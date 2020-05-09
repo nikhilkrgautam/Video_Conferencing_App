@@ -1,10 +1,6 @@
 const io = require('socket.io');
 const users = require('./users');
 
-/**
- * Initialize when a connection is made
- * @param {SocketIO.Socket} socket
- */
 function initSocket(socket) {
   let id;
   socket

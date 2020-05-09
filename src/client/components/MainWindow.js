@@ -4,10 +4,6 @@ import PropTypes from 'prop-types';
 function MainWindow({ startCall, clientId }) {
   const [friendID, setFriendID] = useState(null);
 
-  /**
-   * Start the call with or without video
-   * @param {Boolean} video
-   */
   const callWithVideo = (video) => {
     const config = { audio: true, video };
     return () => friendID && startCall(true, friendID, config);
