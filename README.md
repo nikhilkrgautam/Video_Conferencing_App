@@ -1,4 +1,4 @@
-# WebRTC-React-Node
+# Video_Conferencing_App
 
 Try it here: https://fsociety-chat.herokuapp.com/
 
