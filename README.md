@@ -1,4 +1,4 @@
-# Video Conferencing Application
+# WebRTC-React-Node
 
 Try it here: https://fsociety-chat.herokuapp.com/
 
@@ -17,10 +17,10 @@ In the production mode, we will have only 1 server running. All the client side 
 
 ```bash
 # Clone the repository
-https://github.com/nikhilkrgautam/Video_Conferencing_App.git
+https://github.com/sahilnare/WebRTC-React-Node.git
 
 # Go inside the directory
-cd Video_Conferencing_App
+cd WebRTC-React-Node
 
 # Install dependencies
 yarn (or npm install)
