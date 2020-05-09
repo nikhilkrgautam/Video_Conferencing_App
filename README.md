@@ -3,7 +3,7 @@
 Try it here: https://fsociety-chat.herokuapp.com/
 
 ## Introduction
-This is a full stack video chat application built using React, WebRTC, Node.js, Express and Webpack.
+This is a full stack video chat application built using React, WebRTC, Node.js, Express, Socket.IO and Webpack.
 
 ## Quick Start
 
