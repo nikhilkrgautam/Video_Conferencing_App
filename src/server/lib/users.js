@@ -1,9 +1,8 @@
-/* eslint-disable no-await-in-loop */
+
 const haiku = require('./haiku');
 
 const users = {};
 
-// Random ID until the ID is not in use
 async function randomID() {
   let id = haiku();
   while (id in users) {

@@ -1,13 +1,7 @@
 import _ from 'lodash';
 import Emitter from './Emitter';
 
-/**
- * Manage all media devices
- */
 class MediaDevice extends Emitter {
-  /**
-   * Start media devices and send stream
-   */
   start() {
     const constraints = {
       video: {
@@ -34,11 +28,6 @@ class MediaDevice extends Emitter {
     return this;
   }
 
-  /**
-   * Turn on/off a device
-   * @param {String} type - Type of the device
-   * @param {Boolean} [on] - State of the device
-   */
   toggle(type, on) {
     const len = arguments.length;
     if (this.stream) {
@@ -50,9 +39,6 @@ class MediaDevice extends Emitter {
     return this;
   }
 
-  /**
-   * Stop all media track of devices
-   */
   stop() {
     if (this.stream) {
       this.stream.getTracks().forEach((track) => track.stop());

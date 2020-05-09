@@ -4,9 +4,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import _ from 'lodash';
 import socket from './js/socket';
 import PeerConnection from './js/PeerConnection';
-import MainWindow from './js/MainWindow';
-import CallWindow from './js/CallWindow';
-import CallModal from './js/CallModal';
+import MainWindow from './components/MainWindow';
+import CallWindow from './components/CallWindow';
+import CallModal from './components/CallModal';
 
 class App extends Component {
   constructor() {
